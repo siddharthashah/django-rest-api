@@ -119,5 +119,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-
 STATIC_URL = '/static/'
+
+# Specify the model you want to use as the default django model
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
